@@ -1,0 +1,43 @@
+{
+    "title": "designs",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "original_image_key": {
+            "type": "string",
+            "description": "Object key for original uploaded image"
+        },
+        "result_image_url": {
+            "type": "string",
+            "description": "URL of AI-generated result image"
+        },
+        "prompt": {
+            "type": "string",
+            "description": "User instruction/prompt for AI"
+        },
+        "style": {
+            "type": "string",
+            "description": "Design style selected"
+        },
+        "status": {
+            "type": "string",
+            "description": "Processing status: pending, processing, completed, failed"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id"
+    ]
+}
