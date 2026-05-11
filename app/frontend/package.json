@@ -92,6 +92,6 @@
     "vite-prerender-plugin": "^0.5.13"
   },
   "pnpm": {
-    "allowedScripts": ["build", "preinstall", "postinstall", "prepare""install" ]
+    "allowedScripts": ["build", "preinstall", "postinstall", "prepare", "install"]
   }
 }
