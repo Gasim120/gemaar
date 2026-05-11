@@ -97,7 +97,7 @@
       "esbuild",
       "@metagptx/vite-plugin-source-locator",
       "simple-git-hooks"
-  ],
+ ],
   "pnpm": {
     "onlyBuiltDependencies": [
       "@swc/core",
@@ -106,4 +106,6 @@
       "simple-git-hooks"
     ]
   }
-}  
+} 
+  
+  
