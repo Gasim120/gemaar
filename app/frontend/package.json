@@ -93,6 +93,11 @@
    },
   "pnpm": {
     "allowedScripts": ["build", "preinstall", "postinstall", "prepare", "install"],
-    "onlyBuiltDependencies": ["@swc/core", "esbuild", "@metagptx/vite-plugin-source-locator", "simple-git-hooks"]
+    "onlyBuiltDependencies": [
+      "@swc/core", 
+      "esbuild", 
+      "@metagptx/vite-plugin-source-locator", 
+      "simple-git-hooks"
+    ]
   }
 }
