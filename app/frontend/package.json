@@ -97,7 +97,11 @@
       "preinstall",
       "postinstall",
       "prepare",
-      "install"
+      "install",
+      "@metagptx/vite-plugin-source-locator",
+      "@swc/core",
+      "esbuild",
+      "simple-git-hooks"
     ],
     "onlyBuiltDependencies": [
       "@swc/core",
@@ -106,6 +110,6 @@
       "simple-git-hooks"
     ]
   }
-}         
+}       
   
   
