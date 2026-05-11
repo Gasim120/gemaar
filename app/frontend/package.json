@@ -91,17 +91,17 @@
     "vite-plugin-sitemap": "^0.8.2",
     "vite-prerender-plugin": "^0.5.13"
      },
-  "pnpm": {
+    "pnpm": {
     "allowedScripts": [
       "build",
       "preinstall",
       "postinstall",
       "prepare",
       "install",
-      "@metagptx/vite-plugin-source-locator",
       "@swc/core",
       "esbuild",
-      "simple-git-hooks"
+      "simple-git-hooks",
+      "@metagptx/vite-plugin-source-locator"
     ],
     "onlyBuiltDependencies": [
       "@swc/core",
@@ -110,6 +110,6 @@
       "simple-git-hooks"
     ]
   }
-}       
+}     
   
   
